@@ -1,8 +1,55 @@
 .Form {
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgb(238, 238, 238);
+  padding: 24px;
+  border-radius: 10px;
 }
 
 form {
   display: flex;
   flex-direction: column;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 400;
+  padding-left: 6px;
+}
+
+input {
+  height: 34px;
+}
+
+input,
+textarea,
+button {
+  margin-bottom: 8px;
+  border: none;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  padding: 8px;
+  font-size: 16px;
+  resize: none;
+  width: 100%;
+}
+
+button {
+  background-color: rgb(58, 58, 58);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+h2:not(:first-child) {
+  margin-top: 12px;
+}
+
+.loadExample {
+  background-color: green;
+}
+
+.reset {
+  background-color: red;
 }

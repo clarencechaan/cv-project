@@ -48,7 +48,12 @@ class EducationForm extends React.Component {
           value={to}
           onChange={(e) => this.props.handleChange(e, this.props.index)}
         />
-        <button type="button">Delete</button>
+        <button
+          type="button"
+          onClick={() => this.props.handleDelete(this.props.index)}
+        >
+          Delete
+        </button>
       </form>
     );
   }

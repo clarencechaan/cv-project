@@ -1,12 +1,13 @@
 import React from "react";
+import '../styles/Education.css'
 
 class Education extends React.Component {
   render() {
     const { university, city, degree, subject, from, to } =
       this.props.education;
     return (
-      <div>
-        <div>
+      <div className="education">
+        <div className="date-container">
           {from} - {to}
         </div>
         <div>

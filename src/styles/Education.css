@@ -1,0 +1,17 @@
+.education {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.date-container {
+    width: 150px;
+    font-weight: 500;
+}
+
+.education > div > p:first-child {
+    font-weight: 500;
+}
+
+.education > div > p {
+    margin-bottom: 8px;
+}

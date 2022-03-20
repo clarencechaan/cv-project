@@ -10,7 +10,7 @@ class Experience extends React.Component {
           {from} - {to}
         </div>
         <div>
-          <p>{position}</p>
+          <p >{position}</p>
           <p>
             {company}, {city}
           </p>

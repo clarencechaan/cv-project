@@ -5,18 +5,16 @@ body {
 .App {
   display: flex;
   justify-content: center;
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(211, 211, 211);
   font-family: "Roboto", sans-serif;
   padding: 40px;
   column-gap: 40px;
 }
 
 .Form {
-  background-color: gray;
-  min-width: 400px;
+  min-width: 500px;
 }
 
 .CV {
   flex: 1;
-  background-color: gray;
 }

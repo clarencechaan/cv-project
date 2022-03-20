@@ -17,7 +17,7 @@ class PersonalInformation extends React.Component {
           name="description"
           id="description"
           cols="30"
-          rows="10"
+          rows="6"
           placeholder="Description"
           value={description}
           onChange={this.props.handleChange}

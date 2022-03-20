@@ -1,5 +1,6 @@
 .experience {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .date-container {
@@ -9,5 +10,5 @@
 
 .experience > div > p:first-child {
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
