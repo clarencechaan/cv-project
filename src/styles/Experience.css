@@ -1,0 +1,13 @@
+.experience {
+    display: flex;
+}
+
+.date-container {
+    width: 150px;
+    font-weight: 500;
+}
+
+.experience > div > p:first-child {
+    font-weight: 500;
+    margin-bottom: 10px;
+}

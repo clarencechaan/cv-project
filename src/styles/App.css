@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(219, 219, 219);
+  font-family: "Roboto", sans-serif;
+  padding: 40px;
+  column-gap: 40px;
+}
+
+.Form {
+  background-color: gray;
+  min-width: 400px;
+}
+
+.CV {
+  flex: 1;
+  background-color: gray;
+}
