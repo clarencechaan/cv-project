@@ -12,6 +12,7 @@
     font-weight: 500;
     margin-bottom: 8px;
 }
+
 .experience > div:last-child {
     flex: 1;
 }
