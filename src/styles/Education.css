@@ -15,3 +15,7 @@
 .education > div > p {
     margin-bottom: 8px;
 }
+
+.education > div:last-child {
+    flex: 1;
+}
